@@ -1,0 +1,92 @@
+/* - - - - - - - - - - - - -  Responsive - - - - - - - - - - - - - */
+
+@media only screen and (max-width: 600px) {
+
+    .col {
+        flex: 0 0 100%;
+    }
+
+    .sm-col-1 {
+        display: block;
+    }
+
+    .col-2 {
+        max-width: 100%;
+    }
+
+    .lg-col-offset {
+        margin-top: -4rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    .header {
+        padding: 8rem 0 4rem;
+        background: url("../img/bg-top.jpg") no-repeat 100% 0 / cover;
+    }
+
+        .header .branding img {
+            width: 100%;
+        }
+
+        .masthead h1 {
+            font-size: 4.4rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 1.2;
+            padding: 4rem 0 4rem;
+        }
+
+    .btn-continue {
+        display: none;
+    }
+
+    .content article {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .auction {
+        align-items: flex-start;
+        min-height: auto;
+    }
+
+        .auction__field--image {
+            padding: 0 0 2em;
+        }
+
+        .auction__field--image, .auction__field {
+            flex: 0 0 100%;
+        }
+
+        .auction__field h2 {
+            font-size: 2.4rem;
+        }
+        
+        .auction__status__field {
+            padding: 0 0 .5em;
+            flex: 0 0 100%;
+        }
+
+    .search {
+        padding: 0 0 4rem;
+        margin: 0 auto;
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .lg-col-offset {
+        padding-top: 3em;
+    }
+    
+    .sm-col-1 {
+        display: none;
+    }
+
+}
